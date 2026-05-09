@@ -1,240 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dexter Ng - Expert in accounting, taxation, trademark, business management, and corporate services. Providing customized solutions with trust and expertise.">
-  <meta name="keywords" content="Dexter Ng, corporate services, accounting, taxation, trademark, business management, financial support">
-  <meta name="author" content="Dexter Ng">
-  <title>Dexter Ng | Corporate Services Expert</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Roboto', Arial, sans-serif;
-    }
-    body {
-      background: #1C2526;
-      color: #F5F6F5;
-    }
-    nav {
-      background: #1B263B;
-      padding: 1rem 2rem;
-      position: fixed;
-      width: 100%;
-      top: 0;
-      z-index: 1000;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-    }
-    nav a {
-      color: #F5F6F5;
-      text-decoration: none;
-      font-size: 1.1rem;
-      transition: color 0.3s;
-    }
-    nav a:hover {
-      color: #D4A017;
-    }
-    section {
-      padding: 5rem 2rem;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      text-align: center;
-    }
-    #home {
-      background: url('https://via.placeholder.com/1920x1080?text=Corporate+Office') center/cover;
-      color: #F5F6F5;
-      text-shadow: 0 0 10px rgba(0,0,0,0.5);
-    }
-    #home h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-    #home p {
-      font-size: 1.2rem;
-      max-width: 600px;
-      margin-bottom: 2rem;
-    }
-    .btn {
-      background: #D4A017;
-      color: #1B263B;
-      padding: 0.8rem 1.5rem;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-    .btn:hover {
-      background: #b88e14;
-    }
-    #about, #services, #contact {
-      background: #2E3536;
-    }
-    h2 {
-      font-size: 2.5rem;
-      color: #F5F6F5;
-      margin-bottom: 2rem;
-    }
-    #about p, #contact p {
-      max-width: 700px;
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin-bottom: 2rem;
-    }
-    .service-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .service-item {
-      background: #F5F6F5;
-      padding: 1.5rem;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
-    .service-item:hover {
-      transform: translateY(-5px);
-    }
-    .service-item h3 {
-      font-size: 1.5rem;
-      color: #1B263B;
-      margin-bottom: 1rem;
-    }
-    .service-item p {
-      font-size: 1rem;
-      color: #4B5EAA;
-    }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      max-width: 500px;
-      margin: 0 auto;
-    }
-    input, textarea {
-      padding: 0.8rem;
-      border: 1px solid #F5F6F5;
-      border-radius: 5px;
-      font-size: 1rem;
-      background: #1C2526;
-      color: #F5F6F5;
-    }
-    textarea {
-      resize: vertical;
-    }
-    footer {
-      background: #1B263B;
-      color: #F5F6F5;
-      text-align: center;
-      padding: 1rem;
-      position: relative;
-    }
-    @media (max-width: 768px) {
-      nav ul {
-        flex-direction: column;
-        gap: 1rem;
-      }
-      #home h1 {
-        font-size: 2rem;
-      }
-      #home p {
-        font-size: 1rem;
-      }
-      h2 {
-        font-size: 2rem;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dexter Ng — Corporate Services & AI Systems Architect</title>
+    <meta name="description" content="Dexter Ng — Corporate services expert and AI Systems Architect helping Hong Kong businesses integrate AI into their accounting and corporate operations.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
 
-  <section id="home">
-    <h1>Dexter Ng</h1>
-    <p>Corporate Services Expert Specializing in Accounting, Taxation, and Business Management</p>
-    <a href="#contact" class="btn">Contact Me</a>
-  </section>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <div class="nav-logo">Dexter Ng</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
 
-  <section id="about">
-    <h2>About Dexter Ng</h2>
-    <p>Dexter Ng - Specializing in accounting, taxation, trademark, business management with expertise in corporate services. Currently, I am immersed in the realm of Corporate services, providing unparalleled, customized solutions in the fields of accounting, tax management, corporate secretarial tasks, trademark agent, along with financial and insurance administrative support to a varied client base. As a devoted service partner, I pledge to ensure that each decision is made with deliberate consideration and your best interests at heart. With my broad expertise, you can be confident that I am fully capable of handling all your corporate affairs.</p>
-    <a href="#contact" class="btn">Get in Touch</a>
-  </section>
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-eyebrow">Hong Kong &nbsp;·&nbsp; Corporate Services &nbsp;·&nbsp; AI Systems</p>
+            <h1>Dexter Ng</h1>
+            <p class="hero-title">Corporate Services &amp; AI Systems Architect</p>
+            <p class="hero-desc">Turning accounting and corporate operations into AI-powered workflows — for Hong Kong businesses that want to do more with less.</p>
+            <div class="hero-cta">
+                <a href="#contact" class="btn-primary">Get in Touch</a>
+                <a href="#services" class="btn-secondary">See Services &rarr;</a>
+            </div>
+        </div>
+    </section>
 
-  <section id="services">
-    <h2>Our Services</h2>
-    <div class="service-grid">
-      <div class="service-item">
-        <h3>Accounting</h3>
-        <p>Streamlined financial reporting and bookkeeping tailored to your business needs.</p>
-      </div>
-      <div class="service-item">
-        <h3>Taxation</h3>
-        <p>Expert tax planning and compliance to optimize your financial strategy.</p>
-      </div>
-      <div class="service-item">
-        <h3>Trademark Agent</h3>
-        <p>Protect your brand with professional trademark registration and management.</p>
-      </div>
-      <div class="service-item">
-        <h3>Business Management</h3>
-        <p>Strategic guidance to enhance efficiency and drive business growth.</p>
-      </div>
-      <div class="service-item">
-        <h3>Corporate Secretarial</h3>
-        <p>Reliable support for compliance and corporate governance tasks.</p>
-      </div>
-      <div class="service-item">
-        <h3>Financial & Insurance Support</h3>
-        <p>Comprehensive administrative solutions for financial and insurance needs.</p>
-      </div>
-    </div>
-  </section>
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I help Hong Kong businesses handle their corporate needs with clarity and efficiency. With over 13 years of experience — built on a foundation of audit work at a CPA firm — I deliver practical, customized solutions in accounting, tax management, company secretarial, trademark registration, licensing, and financial administration.</p>
+                    <p>What sets me apart: I don't just offer traditional services. I design and deploy AI-powered systems that automate the repetitive, high-volume work in accounting and corporate operations — reducing manual effort, minimizing errors, and freeing your team to focus on what actually matters to your business.</p>
+                    <p>I approach every engagement with deliberate care, putting your business goals first. Whether you need reliable day-to-day support or a smarter way to scale your operations, I'm here to make corporate affairs less stressful and more strategic.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <span class="stat-num">13+</span>
+                        <span class="stat-label">Years in Corporate Services</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">4</span>
+                        <span class="stat-label">Years at CPA Firm (Audit)</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">56+</span>
+                        <span class="stat-label">AI Agents in Production</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Ready to elevate your corporate affairs? Reach out for personalized solutions.</p>
-    <form action="mailto:care@dexterng.com" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-  </section>
+    <!-- Services -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title">Services</h2>
+            <p class="section-sub">Traditional expertise, now augmented with AI — for faster, more accurate, and more scalable delivery.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">&#128202;</div>
+                    <h3>Accounting</h3>
+                    <p>Full-scope bookkeeping and financial reporting for Hong Kong companies, with AI-assisted accuracy checks built in.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#129534;</div>
+                    <h3>Taxation</h3>
+                    <p>HK Profits Tax, employer returns (BIR56A), and tax planning — compliant, efficient, and deadline-driven.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#8482;</div>
+                    <h3>Trademark Agent</h3>
+                    <p>Trademark registration and IP protection for your brand in Hong Kong and beyond.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#128193;</div>
+                    <h3>Corporate Secretarial</h3>
+                    <p>NAR1 filings, statutory compliance, and company administration — handled accurately, on time, every time.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#128188;</div>
+                    <h3>Business Management</h3>
+                    <p>Operational support, back-office management, and consultancy for growing Hong Kong businesses.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#128737;</div>
+                    <h3>Financial &amp; Insurance Support</h3>
+                    <p>Financial administration and insurance advisory — protecting your business and your people.</p>
+                </div>
+                <div class="service-card service-card--ai">
+                    <span class="service-tag">New</span>
+                    <div class="service-icon">&#129302;</div>
+                    <h3>AI Systems Integration</h3>
+                    <p>Design, build, and deploy AI-powered workflows for your accounting and corporate operations. Production systems — not prototypes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Dexter Ng. All rights reserved.</p>
-  </footer>
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-sub">Whether you need reliable corporate services or want to explore how AI can transform your operations — let's talk.</p>
+            <form class="contact-form" id="contact-form"
+                  action="https://formspree.io/f/maqvpgga"
+                  method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Tell me what you need..."></textarea>
+                </div>
+                <!-- Human verification -->
+                <div class="form-group captcha-group">
+                    <label id="captcha-label">Verification: <span id="captcha-question"></span></label>
+                    <input type="number" id="captcha-input" placeholder="Your answer" autocomplete="off">
+                    <p class="captcha-error" id="captcha-error">Incorrect — please try again.</p>
+                </div>
+                <!-- Honeypot — bots fill this, humans don't see it -->
+                <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                <input type="hidden" name="_subject" value="New enquiry from dexterng.dev">
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+            <p id="form-success" class="form-success" style="display:none">
+                Message sent — I will get back to you shortly.
+            </p>
+        </div>
+    </section>
 
-  <script>
-    // Smooth scrolling for navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  </script>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Dexter Ng &nbsp;&middot;&nbsp; Corporate Services &amp; AI Systems Architect &nbsp;&middot;&nbsp; Hong Kong</p>
+        </div>
+    </footer>
+
+
+    <script>
+        (function () {
+            var a, b;
+
+            function newCaptcha() {
+                a = Math.floor(Math.random() * 9) + 1;
+                b = Math.floor(Math.random() * 9) + 1;
+                document.getElementById('captcha-question').textContent = a + ' + ' + b + ' = ?';
+                document.getElementById('captcha-input').value = '';
+                document.getElementById('captcha-error').style.display = 'none';
+            }
+
+            newCaptcha();
+
+            document.getElementById('contact-form').addEventListener('submit', function (e) {
+                var userAnswer = parseInt(document.getElementById('captcha-input').value, 10);
+                if (userAnswer !== a + b) {
+                    e.preventDefault();
+                    document.getElementById('captcha-error').style.display = 'block';
+                    newCaptcha();
+                    return;
+                }
+
+                e.preventDefault();
+                var form = this;
+                var data = new FormData(form);
+
+                fetch(form.action, {
+                    method: 'POST',
+                    body: data,
+                    headers: { 'Accept': 'application/json' }
+                }).then(function (res) {
+                    if (res.ok) {
+                        form.style.display = 'none';
+                        document.getElementById('form-success').style.display = 'block';
+                    } else {
+                        alert('Something went wrong — please email me directly.');
+                    }
+                }).catch(function () {
+                    alert('Something went wrong — please email me directly.');
+                });
+            });
+        })();
+    </script>
+
 </body>
 </html>
